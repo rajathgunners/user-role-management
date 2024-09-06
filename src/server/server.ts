@@ -3,7 +3,7 @@ import registerRoutes from "../routes/_register";
 import errorHandlerMiddleware from "../middlewares/errorHandlerMiddleware"
 require('source-map-support').install();
 import configs from "../configs"; // loading configs
-import models from "../models";
+import models from "../models"; // loading models
 
 const app: Express = express();
 
